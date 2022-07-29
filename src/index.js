@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// eslint-disable-next-line no-unused-vars
+// import App from './components/App';
+import Header from './components/Header'
+import FoodCard from './components/foodCard';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header/>
+    <FoodCard/>
   </React.StrictMode>
 );
 
