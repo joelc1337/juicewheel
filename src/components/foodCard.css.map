@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAA;EACC,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,KAAK;CACf;;AAED,AAAA,EAAE,CAAA;EACE,KAAK,EAAC,KAAK;CACd;;AAED,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAC,KAAkB;EACnC,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,UAAU;CACtB",
+    "sources": [
+        "foodCard.scss"
+    ],
+    "names": [],
+    "file": "foodCard.css"
+}
