@@ -16,7 +16,7 @@ root.render(
     {/* <App /> */}
     <Header/>
     <SearchBar/>  
-    <div class="row container-fluid d-flex align-items-center">
+    <div className="row container-fluid d-flex align-items-center text-center justify-content-center">
       <FoodCards/>
     </div>
   </React.StrictMode>
