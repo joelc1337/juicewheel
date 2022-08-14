@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import FoodCard from './FoodCard.js ';
+import FoodCard from './FoodCard.js';
 
 
 
