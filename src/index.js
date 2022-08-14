@@ -8,13 +8,14 @@ import Header from './components/Header'
 import FoodCard from "./components/foodCard";
 import reportWebVitals from './reportWebVitals';
 import FoodCards from "./components/foodCards";
-
+import SearchBar from './components/searchBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Header/>
+    <SearchBar/>  
     <div class="row container-fluid d-flex align-items-center">
       <FoodCards/>
     </div>

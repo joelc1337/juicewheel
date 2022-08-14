@@ -8,8 +8,7 @@ h6 {
 }
 
 #foodCard {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 1px solid;
-  padding: .7em 1em 0;
-}
-/*# sourceMappingURL=foodCard.css.map */
+  padding: 0.7em 1em 0;
+}/*# sourceMappingURL=foodCard.css.map */
