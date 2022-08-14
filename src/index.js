@@ -5,7 +5,7 @@ import './index.css';
 // eslint-disable-next-line no-unused-vars
 // import App from './components/App';
 import Header from './components/Header'
-import FoodCard from "./components/foodCard";
+// import FoodCard from "./components/foodCard";
 import reportWebVitals from './reportWebVitals';
 import FoodCards from "./components/foodCards";
 import SearchBar from './components/searchBar';
