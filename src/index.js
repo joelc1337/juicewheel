@@ -4,21 +4,22 @@ import './index.css';
 
 // eslint-disable-next-line no-unused-vars
 // import App from './components/App';
-import Header from './components/Header'
+import Header from './components/Header';
+import Body from './components/Body';
 // import FoodCard from "./components/foodCard";
 import reportWebVitals from './reportWebVitals';
-import FoodCards from "./components/foodCards";
-import SearchBar from './components/searchBar';
+import FoodCards from "./components/FoodCards";
+import SearchBar from './components/SearchBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Header/>
-    <div className="container-fluid">
-        <SearchBar/>  
-        <FoodCards/>
-    </div>
+    <Body>
+      <SearchBar/>  
+      <FoodCards/>
+    </Body>
   </React.StrictMode>
   
 );

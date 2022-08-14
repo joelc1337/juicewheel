@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './foodCard.css';
+import './component_styles/foodCard.css';
 
 
 function FoodCard(props){

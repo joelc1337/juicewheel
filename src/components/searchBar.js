@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './SearchBar.css'
+import './component_styles/SearchBar.css'
 
 function SearchBar(){
 
@@ -10,7 +10,7 @@ function SearchBar(){
 
 
     function ingredientSearch(){
-
+        
 
 
     }
