@@ -10,7 +10,7 @@ function ingredientCardWrapper(props){
     for(var i in ingredientList){
         foodList.push(<FoodCard className="col-xs-4" fruit= {ingredientList[i]}/>)
     }
-    return foodList
+    return <div className="row text-center m-3 align-center justify-content-center">{foodList}</div>
 
 
 }
