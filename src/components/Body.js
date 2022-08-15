@@ -1,8 +1,17 @@
-import React from "react";
+import React, {useState} from 'react';
+import SearchContext from './SearchContext';
+
+
 
 function Body(props){
-    return (
-    <div className="container-fluid">{props.children}</div>
+
+    const {searchText, setSearchText} = useState("");
+    const states = {searchText,setSearchText};
+    
+    return(
+        <SearchContext.Provider value={states}>
+            <div className="container-fluid">{props.children}</div>
+        </SearchContext.Provider>
     )
 }
 
