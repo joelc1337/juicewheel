@@ -6,9 +6,6 @@ function FoodCard(props){
 
     const [selected, setSelected] = useState(false);
 
-
-
-
     return(
         <div id="foodCard" className={props.className + ' ' + (selected ? "green" : null)}>
             <button onClick={()=> setSelected(!selected)}>
